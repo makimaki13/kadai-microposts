@@ -30,7 +30,10 @@
                                 </form>
                             @endif
                         </div>
+                       
                     </div>
+                      {{-- お気に入り／アンお気に入りボタン --}}
+                     @include('micropost_favorite.favorite_button')
                 </li>
             @endforeach
         </ul>
